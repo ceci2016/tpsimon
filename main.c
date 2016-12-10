@@ -1,3 +1,4 @@
+
 //
 
 #include <stdio.h>
@@ -24,7 +25,6 @@ void hacer_tiempo (int seconds);
 
 
 int main(int argc, const char * argv[]) {
-
     time_t t;
         srand((unsigned) time(&t));
     for(int contador=0;contador<(RONDAS-1);contador++){
@@ -107,5 +107,13 @@ void hacer_tiempo (int seconds)
         current_time = time(NULL);
     }
 }
+
+
+
+
+
+
+
+
 
 
